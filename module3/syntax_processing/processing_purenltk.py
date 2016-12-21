@@ -1,7 +1,7 @@
 import nltk
 from nltk.tokenize import sent_tokenize, word_tokenize
 _wordnet = nltk.corpus.wordnet
-from module3.semantic_processing import semantic_processing as semantics
+from semantic_processing import semantic_processing as semantics
 
 from nltk.stem import WordNetLemmatizer
 
@@ -174,10 +174,10 @@ class TextProcessor:
 
 
 
-text = "He is my brother."
-t = TextProcessor(text)
-lista = t.processing()
-for prop in lista:
-    print(str(prop))
+#text = "He is my brother."
+#t = TextProcessor(text)
+#lista = t.processing()
+#for prop in lista:
+#    print(str(prop))
 
 

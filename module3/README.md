@@ -6,6 +6,15 @@ Artificial Intelligence project
 **Log**:
 + `This section will be updated soon`
 
+
+**API Endpoint:** [https://ia-module3.herokuapp.com/process](https://ia-module3.herokuapp.com/process)
+
+----------
+**Example:**
+https://ia-module3.herokuapp.com/process/this%20is%20a%20text%20to%20test%20this
+
+----------
+
 ## Team members:
 + Balan Valeria
 + Bilan Tudor

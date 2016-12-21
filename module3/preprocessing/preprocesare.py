@@ -1,5 +1,4 @@
-from textblob import TextBlob
-from textblob import Word
+from textblob import TextBlob, Word
 from textblob.wordnet import VERB,NOUN,ADJ,ADV
 import nltk
 #TextBlob.correct() are o acuratete de 70%...in general greseste la nume...
@@ -19,5 +18,5 @@ class Preprocesare:
 
 
 
-print(Preprocesare.correct_sentence("I hawe an cat"))
-Preprocesare.spell_checkers("I have a grey cat")
+#print(Preprocesare.correct_sentence("I hawe an cat"))
+#Preprocesare.spell_checkers("I have a grey cat")

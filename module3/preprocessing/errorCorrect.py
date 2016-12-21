@@ -1,9 +1,10 @@
 from textblob import TextBlob,Word
+def correct(text):
+    t = TextBlob(text)
+    return str(t.correct())
 
-# text="Anna is mw moother"
-# t=TextBlob(text)
-# print(t.correct())
-txt=["She","is","mw","moom"]
-for w in txt:
-    word=Word(w)
-    print(word.spellcheck())
+def spellcheck(text):
+    txt=["She","is","mw","moom"]
+    for w in txt:
+        word=Word(w)
+        print(word.spellcheck())
