@@ -1,0 +1,45 @@
+	Adverbs
+--Basic
+	Blackjack
+	Botmaster
+--Continuation
+--Client_profile
+	Dialog
+	Happy
+	Human
+--Imponderables
+	Integer
+--junktest.text
+--loebner10
+	Luckslots
+--movies.db
+--mp0 ... mp6
+	Multiple
+--numbers
+--Parts
+	Personality
+	Philosophy
+--phone
+	Predicates
+--primeminister
+--primitive-math
+2xPsychology
+	Reduce
+	Reducer
+	Reductions
+	Spam
+--Test
+	Utilities
+	Wallace
+	Wordplay
+	update
+
+---
+bot_brain.brn
+--bot_profile.aiml
+bot_response_api.py
+--result.json
+startup.xml
+--test.py
+
+
