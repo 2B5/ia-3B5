@@ -1,14 +1,14 @@
 {
   "name": "messenger-bot",
   "version": "2.3.0",
-  "description": "FB Messenger Platform client",
+  "description": "Cat Assistant Chat Bots",
   "main": "index.js",
   "scripts": {
     "start": "node bot.js"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/remixz/messenger-bot.git"
+    "url": "git+https://github.com/2B5/ia-3B5.git"
   },
   "keywords": [
     "messenger",
@@ -16,9 +16,9 @@
     "client",
     "bot"
   ],
-  "author": "Zach Bruggeman <mail@bruggie.com>",
+  "author": "Marian FX <marian.focsa@outlook.com>",
   "license": "MIT",
-  "homepage": "https://github.com/remixz/messenger-bot#readme",
+  "homepage": "https://github.com/2B5/ia-3B5/tree/module1",
   "dependencies": {
     "body-parser": "*",
     "express": "*",

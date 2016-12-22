@@ -27,7 +27,14 @@
 ### If everything went OK, the bot should be available now at your ngrok address.
 
 
-## Configure Data Module
+## Configure Module Prerequisites
 1. `pip install cherrypy`
 2. `pip install aiml`
 3. `python bot_response_api.py`
+
+## Configure servers for startup
++ Run in the directory `module3/` the command `python module3.py`; it starts a server on [http://localhost:8090](http://localhost:8090)
++ configure _ngrok_ to tunnel this server (`ngrok http 8090`)
++ Run In the directory `module2/Bot/` the command `python bot_response_api.py`; it starts a server on [http://localhost:8099](http://localhost:8099)
++ configure _ngrok_ to tunnel this server (`ngrok http 8099`)
++ update the assistant's code with the addresses of the servers above-created
