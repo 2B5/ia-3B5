@@ -10,6 +10,18 @@
 **Message**>> Are you a boy or a girl?
 + Try to guess.
 
+**Message**>> What are you?
++ I'm a bot, silly!
+
+<hr/>
+
+**Bot**>>What do you think I am?
+
+**Message**>>nothing
+
+**Bot**>>Often under nothingess is great depth.
+
+
 <hr/>
 
 **Message**>> Do you believe in Zombies?

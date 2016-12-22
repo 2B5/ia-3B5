@@ -16,6 +16,7 @@
 
 ![](./images/dev_2.png)
 5. Go to [./app/bot.js](./app/bot.js) and assign to `process.env.PAGE_TOKEN` the token you just generated.
+    + Don't forget to first unsubscribe the Cat Assistant Page and then subscribe it again after you change the server and add the Webhook.
 
 ![](./images/dev_3.png)
 5. In the `app` directory run `npm install` to install dependencies and `npm start` to start the server (make sure you have _Node v6.9.2 LTS_ installed)
