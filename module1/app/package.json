@@ -1,0 +1,27 @@
+{
+  "name": "messenger-bot",
+  "version": "2.3.0",
+  "description": "Cat Assistant Chat Bots",
+  "main": "index.js",
+  "scripts": {
+    "start": "node bot.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/2B5/ia-3B5.git"
+  },
+  "keywords": [
+    "messenger",
+    "api",
+    "client",
+    "bot"
+  ],
+  "author": "Marian FX <marian.focsa@outlook.com>",
+  "license": "MIT",
+  "homepage": "https://github.com/2B5/ia-3B5/tree/module1",
+  "dependencies": {
+    "body-parser": "*",
+    "express": "*",
+    "request": "^2.79.0"
+  }
+}
