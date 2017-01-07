@@ -6,6 +6,15 @@ Artificial Intelligence project
 **Log**:
 + `This section will be updated soon`
 
+
+**API Endpoint:** [https://ia-module3.herokuapp.com/process](https://ia-module3.herokuapp.com/process)
+
+----------
+**Example:**
+https://ia-module3.herokuapp.com/process/this%20is%20a%20text%20to%20test%20this
+
+----------
+
 ## Team members:
 + Balan Valeria
 + Bilan Tudor
@@ -13,11 +22,37 @@ Artificial Intelligence project
 + Coman Bianca
 + Sopron Octavian
 
-## Resources and tehnologies
+## Submodules:
++ 1. Preprocessing:
+  + language detection
+  + error correction
+  
++ 2. Processing
+  + phrase/sentences parsing 
+  + tokenization
+  + lemmatization
+  + parts of speech
+  + pronouns recognition
+  + instances detection
+  + sentiment detection
+  
++ 3. Sense disambiguation
+  + sense recognition
+  + synonims lists
+  + other associated words
+  
++ 4. API
+  + previous submodules integration
+  + output generation (json)
+  + API definition for module1
 
++ 5. Unit testing  
+
+## Resources and tehnologies:
 
 ## Useful Links
 + https://stanfordnlp.github.io/CoreNLP/corenlp-server.html#getting-started  
 + https://stanfordnlp.github.io/CoreNLP/  
 + https://github.com/smilli/py-corenlp  
 + translate module: [google-api-python-client](https://developers.google.com/api-client-library/python/apis/translate/v2)
++ https://textblob.readthedocs.io/en/dev/
