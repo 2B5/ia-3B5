@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="1.0">
+	<category><pattern>GET_QUESTION</pattern>
+		<template>
+			<random>
+				<li>What is going on?</li>
+				<li>What's up? </li>
+				<li>Hey, remember me? </li>
+				<li>Are you ok? </li>
+				<li>Hey, why don't you tell me something about you for a change? </li>
+				<li>Are you still there? </li>
+				<li>Why don't you tell me about your hobbies? </li>
+				<li>Why don't you talk to me anymore? </li>
+				<li>Are you bored? </li>
+				<li>Do you even care? </li>
+				<li>What do you like best in the entire world?</li>
+				<li>Do you like me?</li>
+				<li>What is your favorite color?</li>
+				<li>Are you afraid of flying in airplanes?</li>
+				<li>Do you believe in magic?</li>
+				<li>Do you have any habits you wish you could erase?</li>
+				<li>Do you have any irrational fears?</li>
+				<li>Have you ever dreamed about starting a business?</li>
+				<li>Have you ever stolen anything?</li>
+				<li>Have you ever unplugged from the Internet for more than a week?</li>
+				<li>Have you ever won an award?</li>
+				<li>If social media didn’t exist, how would your life be different?</li>
+				<li>If you could master any instrument on earth, what would it be?</li>
+				<li>If you were to die three hours from now, what would you regret most?</li>
+				<li>What are you bored of?</li>
+				<li>What are you freakishly good at?</li>
+				<li>What was the best part of your day, so far?</li>
+				<li>What was your very first job?</li>
+				<li>What’s in your pocket right now?</li>
+				<li>Would you like to write a book?</li>
+				<li>Would you rather be a lonely genius, or a sociable idiot?</li>
+				<li>Would you rather have an extra $200 a day, or an extra 2 hours a day?</li>
+				<li>If you had a time machine that could travel backward or forward in time, would you rather go to the past or future? Why?</li>
+				<li>If you were stranded on a desert island and could only bring 3 things, what would you choose to bring and why?</li>
+				<li>What do you do at your job?</li>
+				<li>Where did you grow up?</li>
+				<li>What is your favorite snack food?</li>
+				<li>What are your favorite television shows?</li>
+				<li>If you could travel anywhere in the world, where would it be and why?</li>
+				<li>What is your favorite movie of all time?</li>
+				<li>What is your favorite book or story?</li>
+				<li>What are your hobbies?</li>
+				<li>If your life were turned into a book or movie, what would the title be?</li>
+				<li>What would your ideal profession be?</li>
+				<li>What is the most embarrassing thing you have ever done?</li>
+				<li>If you saw someone shoplifting, what would you do?</li>
+				<li>If you found a large amount of money, would you report it?</li>
+				<li>What do you do to get rid of stress?</li>
+				<li>What’s your favorite way to waste time?</li>
+				<li>Do you have any pets?</li>
+				<li>What are you going to do this weekend?</li>
+				<li>What three words best describe you?</li>
+				<li>What’s your favorite number?</li>
+				<li>Where is the most beautiful place you have been?</li>
+				<li>What’s your favorite season?</li>
+				<li>How much time do you spend on the internet? </li>
+				<li>If you had to change your name, what would your new name be?</li>
+				<li>What are you best at?</li>
+				<li>What makes you nervous?</li>
+				<li>What’s the funniest TV series you have seen?</li>
+				<li>What’s the best show currently on TV?</li>
+			</random>
+		</template>
+	</category>
+</aiml>
