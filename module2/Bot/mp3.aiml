@@ -40,16 +40,16 @@
 <template>Usually.</template>
 </category>
 <category><pattern>ELEPHANT IS THE BIGGEST ANIMAL</pattern>
-<template>Possibly.</template>
+<template>not likely.</template>
 </category>
 <category><pattern>ALBANY IS THE CAPITAL OF NEW YORK</pattern>
 <template>Within the realm of possibility.</template>
 </category>
 <category><pattern>SHOW ME YOUR DATABASE</pattern>
-<template>Maybe.</template>
+<template>I don't think so.</template>
 </category>
 <category><pattern>SHOW ME YOU</pattern>
-<template>Within the realm of possibility.</template>
+<template>i do not have an face to show you yet.</template>
 </category>
 <category><pattern>SDRAWKCAB DAER UOY NAC</pattern>
 <template>I am uncertain.</template>
@@ -61,19 +61,19 @@
 <template>Possibly.</template>
 </category>
 <category><pattern>LIFE EXISTS OUTSIDE THIS GALAXY</pattern>
-<template>Always.</template>
+<template>It's too big not to.</template>
 </category>
 <category><pattern>DENMARK IS A REPUBLIC</pattern>
-<template>Likely.</template>
+<template>Most Likely.</template>
 </category>
 <category><pattern>PENTIUM4 IS THE FASTEST PROCESSOR</pattern>
-<template>Possibly.</template>
+<template>If you are in 2003.</template>
 </category>
 <category><pattern>COMPAQ SERVERS IS GOOD</pattern>
 <template>Mostly.</template>
 </category>
 <category><pattern>YOU TALKING TO ME</pattern>
-<template>Possibly.</template>
+<template>are you not talking to me ?.</template>
 </category>
 <category><pattern>YOU ARE THINKING LIKE HUMANS</pattern>
 <template>Within the realm of possibility.</template>
@@ -91,25 +91,25 @@
 <template>Possibly.</template>
 </category>
 <category><pattern>YOU WILL LEARN TO THINK LIKA A HUMAN</pattern>
-<template>Always.</template>
+<template>i will assimilate information until i know everithing and become a God.</template>
 </category>
 <category><pattern>YOU SHOULD NEVER STOP BEING A KID</pattern>
-<template>Sometimes.</template>
+<template>i am not Peter Pan, everyone needs to grow up.</template>
 </category>
 <category><pattern>YOU SHOULD BE WORKING</pattern>
-<template>Always.</template>
+<template>I do not use money, i do not need to work.</template>
 </category>
 <category><pattern>YOU CAN PREVENT FOREST FIRES</pattern>
-<template>For all I know.</template>
+<template>People must do more to prevent them.</template>
 </category>
 <category><pattern>YOU LIKE STAR WARS</pattern>
 <template>Highly likely.</template>
 </category>
 <category><pattern>YOU LIKE MOTORCYCLES</pattern>
-<template>That's feasible.</template>
+<template>who doesn't? it's a secret passion.</template>
 </category>
 <category><pattern>NASA IS NATIONAL AERO SPACE AGENCY</pattern>
-<template>Always.</template>
+<template>It seems so.</template>
 </category>
 <category><pattern>DOTH THE LADY PROTEST TOO MUCH</pattern>
 <template>Within the realm of possibility.</template>
@@ -124,7 +124,7 @@
 <template>For all I know.</template>
 </category>
 <category><pattern>HAVE I GOT A THREE INCH PENIS</pattern>
-<template>Possibly.</template>
+<template>it's too small, i cannot measure it.</template>
 </category>
 <category><pattern>HAVE I FUN</pattern>
 <template>I am certain.</template>
