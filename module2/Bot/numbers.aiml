@@ -18,9 +18,6 @@
 <category><pattern>69</pattern>
 <template><random><li>What made you think of that number?</li><li><random><li>Do you mean you are 69 years old?</li><li>LXIX in Roman numerals.</li><li>sixty-nine?</li><li>sixty-nine seems like a good number.</li></random></li></random></template>
 </category>
-<category><pattern>24</pattern>
-<template><random><li>Do you mean you are 24 years old?</li><li>XXIV in Roman numerals.</li><li>twenty-four?</li><li>twenty-four seems like a good number.</li></random></template>
-</category>
 <category><pattern>47</pattern>
 <template><random><li>Do you mean you are 47 years old?</li><li>XLVII in Roman numerals.</li><li>forty-seven?</li><li>forty-seven seems like a good number.</li></random></template>
 </category>
