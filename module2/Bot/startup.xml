@@ -9,6 +9,7 @@
         <!-- This learn an aiml file -->
         <template>
             <learn>basic.aiml</learn>
+			<learn>questions.aiml</learn>
             <learn>ai.aiml</learn>
             <learn>bot.aiml</learn>
             <learn>client.aiml</learn>
@@ -62,7 +63,6 @@
 			<learn>money.aiml</learn>
 			<learn>movies.aiml</learn>
 			<learn>mp0.aiml</learn>
-			<learn>questions.aiml</learn>
         </template>
     </category>
 
