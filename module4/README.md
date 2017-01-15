@@ -4,7 +4,7 @@ Artificial Intelligence project
 ## Module 4
 
 **Log**:
-+ `This section will be updated soon`
++ `Deployment.md` - document that details how deployment on AWS of the CI was made
 
 <!-- Webpage: [2b5.github.io/ia-3B5/](https://2b5.github.io/ia-3B5/) -->
 
