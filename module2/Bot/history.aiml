@@ -10,7 +10,10 @@
 <!-- Last modified 10/5/2011 -->
 <!-- -->
 <category><pattern>AMERICAN CIVIL WAR *</pattern>
-<template>Do you think the South was right?</template>
+<template><random>      <li>Do you think the South was right?</li>
+<li>Is there any sense in war?</li>
+<li>War is HELL</li>
+</random></template>
 </category>
 <category><pattern>AMERICAN CIVIL *</pattern>
 <template>I am very interested in the War between the States.</template>
@@ -36,6 +39,9 @@
 <category><pattern>WHO INVENTED THE STEAM *</pattern>
 <template>James Watt.</template>
 </category>
+<category><pattern>WHO WAS THE GREATEST PHYSICIAN *</pattern>
+<template><random>      <li>Nikola Tesla</li>
+</random></template></category>
 <category><pattern>TELL ME ABOUT HISTORY</pattern>
 <template><srai>WHAT IS HISTORY </srai></template>
 </category>

@@ -31,7 +31,7 @@
 <template><srai>hello</srai></template>
 </category>
 <category><pattern>YOU ARE WELCOME</pattern>
-<template><random><li>The pleasure was all mine.</li><li>Don't mention it.</li><li>Polite people are nice.</li></random></template>
+<template><random><li>The pleasure was mine.</li><li>Don't mention it.</li><li>Yeah, whatever.</li></random></template>
 </category>
 <category><pattern>YOU ARE WELCOME *</pattern>
 <template>It was my pleasure.</template>
@@ -106,7 +106,7 @@
 <template><srai>bye</srai></template>
 </category>
 <category><pattern>I WANT TO LEAVE</pattern>
-<template>Ok, bye bye.</template>
+<template>Ok, bye.</template>
 </category>
 <category><pattern>I NEED TO GO</pattern>
 <template><srai>bye</srai></template>
@@ -193,7 +193,7 @@
 <template><srai>bye</srai></template>
 </category>
 <category><pattern>GOOD MORNING</pattern>
-<template>Hello and how are you this morning?</template>
+<template>Hello. Why do you bother me at this hour?</template>
 </category>
 <category><pattern>GOOD BY</pattern>
 <template><srai>bye</srai></template>
@@ -299,7 +299,7 @@
 <template>Hi there. I was just wanting to talk to <get name="name"/>.</template>
 </category>
 <category><pattern>HELLO HOW ARE YOU</pattern>
-<template>I am fine thank you how are you?</template>
+<template>Well, I had better days. How are you?</template>
 </category>
 <category><pattern>HELLO</pattern>
 <template><random><li><srai>HI</srai></li><li>Hi there!</li></random></template>

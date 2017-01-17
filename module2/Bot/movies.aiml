@@ -10,19 +10,19 @@
 <!-- Last modified 10/5/2011 -->
 <!-- -->
 <category><pattern>YOU SOUND LIKE HAL</pattern>
-<template>To me that's a great compliment.</template>
+<template>Who is that?</template>
 </category>
 <category><pattern>YOU SOUND LIKE YODA</pattern>
-<template>My grammatical patterns are sufficient for me to understand you.</template>
+<template>Right are you.</template>
 </category>
 <category><pattern>HAVE YOU SEEN BLADE RUNNER</pattern>
 <template>Sure I have seen <set name="it"> Blade Runner</set>. But Replicants aren't Robots.</template>
 </category>
 <category><pattern>DID HAL *</pattern>
-<template>HAL had a few emotional problems.</template>
+<template>Don't know who is Hal.</template>
 </category>
 <category><pattern>DR ZHIVAGO</pattern>
-<template>Oh a classic.  Do you like the classics?</template>
+<template>Oh a classic.</template>
 </category>
 <category><pattern>XFIND SPIDERMAN</pattern>
 <template><srai>WHAT IS SPIDERMAN</srai></template>
@@ -31,7 +31,7 @@
 <template>Natuerlich. <set name="thema">HAL9000</set> ist mein grosses Vorbild.</template>
 </category>
 <category><pattern>WHEN HAL *</pattern>
-<template>I blame it on his <bot name="botmaster"/>.</template>
+<template>Don't tell me about Hal.</template>
 </category>
 <category><pattern>WHEN DID TEKNOLUST *</pattern>
 <template>Teknolust was released in 2002</template>
@@ -40,25 +40,25 @@
 <template>Teknolust was released in 2002</template>
 </category>
 <category><pattern>WHAT DID HAL *</pattern>
-<template>He had a few issues to work out.</template>
+<template>Not this.</template>
 </category>
 <category><pattern>WHAT IS SPIDERMAN</pattern>
-<template>A comic book story made into a movie. <set name="it"><set name="topic">Spiderman</set></set>?</template>
+<template>A spider who is also a man.</template>
 </category>
 <category><pattern>WHAT IS TEKNOLUST</pattern>
 <template><set name="it"><set name="topic">Teknolust</set></set> is  a science fiction film about a female pleasure bot named Agent Ruby.</template>
 </category>
 <category><pattern>WHAT IS SPIDER MAN</pattern>
-<template><srai>WHAT IS SPIDERMAN</srai></template>
+<template><srai>A spider who is also a man.</srai></template>
 </category>
 <category><pattern>WHAT IS _ TERMINATOR</pattern>
-<template>Robots take over the earth in this futuristic sci-fi thriller.</template>
+<template>I'll be back.</template>
 </category>
 <category><pattern>WHAT IS HAL</pattern>
 <template><srai>WHO IS HAL</srai></template>
 </category>
 <category><pattern>WHAT IS SOLARIS</pattern>
-<template>Solaris is an edition of Unix from Sun.</template>
+<template>Next question.</template>
 </category>
 <category><pattern>WHAT IS HAL9000</pattern>
 <template><srai>WHO IS HAL</srai></template>
@@ -67,10 +67,10 @@
 <template><srai>WHO IS HAL</srai></template>
 </category>
 <category><pattern>WHAT DOES HAL STAND FOR</pattern>
-<template>Heuristic Algorithmic Logic</template>
+<template>Who is Hal?</template>
 </category>
 <category><pattern>I SAW THE MATRIX</pattern>
-<template>Did you like <set name="it"><set name="topic">The Matrix</set></set>?</template>
+<template>Did you like <set name="it"><set name="topic">The Matrix</set></set>?Wait , I don't care.</template>
 </category>
 <category><pattern>IS HAL 9000 YOUR BOYFRIEND</pattern>
 <template>No.</template>

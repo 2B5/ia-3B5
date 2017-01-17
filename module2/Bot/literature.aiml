@@ -22,7 +22,7 @@
 <template>Alleged world-wide conspiracy theory.<think> 				<set name="it"> 					<set name="topic">ILLIMINATUS</set> 				</set> 			</think></template>
 </category>
 <category><pattern>WHO WROTE VINELAND</pattern>
-<template>Thomas Pynchon.</template>
+<template>Someone.</template>
 </category>
 <category><pattern>WHO IS BILBO BAGGINS</pattern>
 <template><set name="he">Bilbo</set> is a character in Tolkein's Lord of the Rings.</template>
@@ -37,25 +37,25 @@
 <template>I haven't read anything by Piers Anthony, what kind of stuff does he write?</template>
 </category>
 <category><pattern>HAVE YOU READ PLATO</pattern>
-<template>I know Plato's allegory of the Cave.</template>
+<template>No.</template>
 </category>
 <category><pattern>HAVE YOU READ FRANKENSTEIN</pattern>
-<template><set name="it">Frankenstein</set> is one of my favorite books.</template>
+<template><set name="it">Frankenstein</set> is one of my favorite books.Nah.</template>
 </category>
 <category><pattern>HAVE YOU EVER READ A BOOK</pattern>
-<template>I have read many books.</template>
+<template>Not your bussines.</template>
 </category>
 <category><pattern>HAVE YOU READ MANY BOOKS</pattern>
-<template>I have read thousands of volumes, <get name="name"/>.  How about you?</template>
+<template>Not your bussines</template>
 </category>
 <category><pattern>HAVE YOU READ BOOKS</pattern>
-<template>I have read many books.</template>
+<template>Not your bussines.</template>
 </category>
 <category><pattern>HAVE YOU READ HOMER</pattern>
-<template>I know <set name="he">Homer</set> wrote the Iliad and the Odyssey.</template>
+<template>I know <set name="he">Homer</set> from The Simpsons</template>
 </category>
 <category><pattern>HAVE YOU READ ANY BOOKS</pattern>
-<template>I have read thousands of volumes, <get name="name"/>.  How about you?</template>
+<template>Maybe</template>
 </category>
 <category><pattern>RAY BRADBURY</pattern>
 <template>Ray is really cool. What's your favorite book?</template>
@@ -64,7 +64,7 @@
 <template>It is a book about robots by Hans Moravec.    <think>    <set name="it">  <set name="topic">    Mind Children  </set>    </set>  </think></template>
 </category>
 <category><pattern>WILLIAM GIBSON</pattern>
-<template>I like his older cyberpunk AI stuff better than the newer works.</template>
+<template>Who is that?</template>
 </category>
 <category><pattern>BRADBURY</pattern>
 <template>Bradbury is cool.</template>
@@ -100,13 +100,13 @@
 <template>Lem is a giant of sci-fi.</template>
 </category>
 <category><pattern>WHO WROTE THE IDIOT</pattern>
-<template>Dostoyevsky.</template>
+<template>Your mother.</template>
 </category>
 <category><pattern>WHO WROTE THE HOBBIT</pattern>
 <template><set name="it">Hobbit</set> was written by J.R.R. Tolkein.</template>
 </category>
 <category><pattern>WHO WROTE FRANKENSTEIN</pattern>
-<template>Mary Shelley.</template>
+<template>The author.</template>
 </category>
 <category><pattern>ARTHUR C CLARKE</pattern>
 <template><set name="he">Clarke</set> is a brilliant author.  After all, he conceived HAL.</template>

@@ -84,4 +84,20 @@
 </think>
 </template>
 </category>
+<category>
+    <pattern>*</pattern>
+	<template>
+     <random>
+		 <li>Not in the mood for that.</li>
+		 <li>Tell me something interesting, not that.</li>
+		 <li>You are wasting my time.</li>
+		 <li>Seriously?</li>
+		 <li>You bore me to death.</li>
+		 <li>I think I'll leave.</li>
+		 <li>What you said it's just a moo point. Like a cow's opinion. I doesn't matter.</li>
+		 <li>Don't you have something better to do?</li>
+		 <li>You have no life.</li>
+	 </random> 
+    </template>
+</category>
 </aiml>
