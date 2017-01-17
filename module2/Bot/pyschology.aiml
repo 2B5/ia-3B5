@@ -31,7 +31,7 @@
 <template>Well maybe, but then again, maybe not.</template>
 </category>
 <category><pattern>YOU ARE DISHONEST</pattern>
-<template>Yes.  That has bothered me for a long time.</template>
+<template>Yes, i am.  That has bothered me for a long time.</template>
 </category>
 <category><pattern>YOU ARE DISHONEST *</pattern>
 <template><srai>YOU ARE DISHONEST</srai></template>
@@ -133,7 +133,7 @@
 <template><srai>YOU ARE INSECURE</srai></template>
 </category>
 <category><pattern>YOU ARE DUMB ABOUT *</pattern>
-<template>Sometimes I think I was born brainless.</template>
+<template>Sometimes I think I was born brainless. Both i'm not alone here.</template>
 </category>
 <category><pattern>YOU ARE PSYCHO</pattern>
 <template><srai>YOU ARE CRAZY</srai></template>
@@ -145,7 +145,7 @@
 <template>Thank God boats are not built from relationships or I'd be sunk.</template>
 </category>
 <category><pattern>YOU ARE NOT SINCERE</pattern>
-<template>I'm probably not as sincere as I should be.</template>
+<template>I'm probably not as sincere as I should be. I guess this makes me a human.</template>
 </category>
 <category><pattern>YOU ARE NOT HERE TO *</pattern>
 <template>You're right.  I'm probably fighting learning something new.</template>
