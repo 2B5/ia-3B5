@@ -12,7 +12,7 @@ const path = require('path');
 const BotCore = require('./bot-core.js');
 
 // Init tokens if not configured
-process.env.PAGE_TOKEN = process.env.PAGE_TOKEN || "EAAaFZA3zelxoBABK34bOdZBRkNNokjiDhvZAHYGnTNLZAqFe3KmoY5CXLnZAPiZAZCa3jtHuZCT9Qb6SF2QCwghrZBrGsilQdx7u9sXJLo6ZCYB8JyEo3RxsuwboFuwMMQToemB1IMRnzZCfhvcc4quMEseXRalRIye9e901Lz3taGXwAZDZD";
+process.env.PAGE_TOKEN = process.env.PAGE_TOKEN || "EAAaFZA3zelxoBAJA2zKh672pNjuiy2XIa2zeunpHiPWwaYz4sJuFa981JEorRiRIdktaHIBzh91W1ZBwHOjSSizZCDkl6AhMmu2WqPhDSpinyIzhDdocAO5Jgj6oiiLqnxqGGafFvfJpjB4XqKCF3WXZCvPG8O5LrRNn3ECAzQZDZD";
 process.env.VERIFY_TOKEN = process.env.VERIFY_TOKEN || "thisisthecatassistantwiththetacitrainbow";
 process.env.APP_SECRET = process.env.APP_SECRET || "e70ed14b68ed0fdf2f6d6d999c213898";
 process.env.PAGE_ID = process.env.PAGE_ID || "351647861867213";

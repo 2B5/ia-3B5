@@ -31,5 +31,4 @@ Additional notes:
 While a domain is pending for securing the app with an `ssl certificate` for `https`, this is a temporary workaround:
 - `wget https://bin.equinox.io/c/4VmDzA7iaHb/ngrok-stable-linux-amd64.zip`
 - `unzip ngrok-stable-linux-amd64.zip`
-- `cd ngrok`
 - `./ngrok http 3000` - blocking task
