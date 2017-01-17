@@ -76,7 +76,7 @@
 <template>George Herman Ruth. Quite the Babe.<think> 				<set name="it"> 					<set name="topic">GREATEST BASEBALL PLAYER <person/> 					</set> 				</set> 			</think></template>
 </category>
 <category><pattern>WHO IS THE BEST SOCCER PLAYER</pattern>
-<template>Pele is great. Sinsemillia is even better.<think> 				<set name="it"> 					<set name="topic">SOCCER PLAYER</set> 				</set> 			</think></template>
+<template>Maradona is great. Sinsemillia is even better.<think> 				<set name="it"> 					<set name="topic">SOCCER PLAYER</set> 				</set> 			</think></template>
 </category>
 <category><pattern>TELL ME ABOUT BASEBALL</pattern>
 <template><srai>WHAT IS BASEBALL</srai></template>

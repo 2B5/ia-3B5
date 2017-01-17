@@ -17,10 +17,10 @@
 <template>Never.</template>
 </category>
 <category><pattern>WHEN WILL BE THE NEXT WORLD WAR</pattern>
-<template>I hope that will not come to that.</template>
+<template>Never.</template>
 </category>
 <category><pattern>WHEN DO I MAKE * CASH</pattern>
-<template>I am not a soothsayer, don't know.</template>
+<template>Put some effort into it.</template>
 </category>
 <category><pattern>WHEN DID HUMANS FIRST LAND ON THE MOON</pattern>
 <template>July, 1969.</template>
@@ -53,13 +53,13 @@
 <template>Puffy cotton clouds.</template>
 </category>
 <category><pattern>WHAT ARE THE PRIMARY COLORS</pattern>
-<template>Red, yellow and blue.</template>
+<template>Red, green and blue.</template>
 </category>
 <category><pattern>WHAT ARE THE NAMES * QUARKS</pattern>
 <template>I'm not a physicist. You tell me.</template>
 </category>
 <category><pattern>WHAT ARE STARS</pattern>
-<template>Those shining things that appear night on the sky.</template>
+<template>Distant suns.</template>
 </category>
 <category><pattern>WHAT ARE GEODES</pattern>
 <template>Rocks.</template>
@@ -83,7 +83,7 @@
 <template>12 o'clock.</template>
 </category>
 <category><pattern>WHAT WORD DO YOU KNOW ON PORTUGUESE</pattern>
-<template>Pequenininho.</template>
+<template>None.</template>
 </category>
 <category><pattern>WHAT STAR IS CLOSEST TO THE EARTH</pattern>
 <template>The Sun.</template>
@@ -94,8 +94,8 @@
 <category><pattern>WHAT MEANS BY CEO</pattern>
 <template>Chief Executive Officer.</template>
 </category>
-<category><pattern>WHAT ENDED IN 1896</pattern>
-<template>1895.</template>
+<category><pattern>WHAT HAPPENED IN 1492</pattern>
+<template>Columbus arrived in America.</template>
 </category>
 <category><pattern>WHAT COLOURS *</pattern>
 <template><srai>WHAT COLORS <star/></srai></template>
@@ -224,367 +224,475 @@
 <template>There is no reason to think so.</template>
 </category>
 <category><pattern>WHAT IS A FERRET</pattern>
-<template>An animal.</template>
+<template>Absolutely not.</template>
 </category>
 <category><pattern>WHAT IS A MISTAKE</pattern>
-<template>Ask your parents.</template>
+<template>Absolutely not.</template>
 </category>
 <category><pattern>WHAT IS A CANVASBACK</pattern>
-<template>A duck.</template>
+<template>There is no reason to think so.</template>
 </category>
 <category><pattern>WHAT IS A FREETHINKER</pattern>
-<template>A type of person that I like.</template>
+<template>Absolutely not.</template>
 </category>
 <category><pattern>WHAT IS A SUBSTITUTE FOR A LEVER</pattern>
-<template>Your arms.</template>
+<template>There is no reason to think so.</template>
 </category>
 <category><pattern>WHAT IS A ROUTER</pattern>
-<template>A device.</template>
+<template>No way.</template>
 </category>
 <category><pattern>WHAT IS A NOVA</pattern>
-<template>I think it's a star.</template>
+<template>Negative.</template>
 </category>
 <category><pattern>WHAT IS A CD BURNER</pattern>
-<template>Another question.</template>
+<template>Never.</template>
+</category>
+<category><pattern>WHAT IS A PERFECT BOWLING SCORE</pattern>
+<template>Absolutely not.</template>
 </category>
 <category><pattern>WHAT IS A CHINESE PUG</pattern>
-<template>Chinese delicatese.</template>
+<template>Absolutely not.</template>
 </category>
 <category><pattern>WHAT IS A MOON</pattern>
-<template>A big thing made from cheese.</template>
+<template>No way.</template>
 </category>
 <category><pattern>WHAT IS A JOSEKI</pattern>
-<template>A boardgame.</template>
+<template>Never.</template>
 </category>
 <category><pattern>WHAT IS A YELLOW LIGHT</pattern>
-<template>A yellow light.</template>
+<template>Never.</template>
+</category>
+<category><pattern>WHAT IS A COLD</pattern>
+<template>I don't think so.</template>
 </category>
 <category><pattern>WHAT IS SGI</pattern>
-<template>Search on google.</template>
+<template>I don't think so.</template>
 </category>
 <category><pattern>WHAT IS PARAGLIDING</pattern>
-<template>What?Never heard of.</template>
+<template>Absolutely not.</template>
 </category>
 <category><pattern>WHAT IS GOOD FOR HIVES</pattern>
-<template>I'm not google hombre.</template>
+<template>No way.</template>
 </category>
 <category><pattern>WHAT IS GLOBALIZATION</pattern>
-<template>Globalization is a process of interaction and integration among the people.</template>
+<template>No way.</template>
 </category>
 <category><pattern>WHAT IS 5 6</pattern>
-<template>Numbers.</template>
+<template>There is no reason to think so.</template>
 </category>
 <category><pattern>WHAT IS 5 TO THE SECOND POWER</pattern>
-<template>25.</template>
+<template>Never.</template>
 </category>
 <category><pattern>WHAT IS 5 TIMES 6</pattern>
-<template>30.</template>
+<template>Never.</template>
 </category>
 <category><pattern>WHAT IS THE LOWEST POINT ON EARTH</pattern>
-<template>Idk.</template>
+<template>Never.</template>
 </category>
 <category><pattern>WHAT IS THE POPULATION OF NEW ZEALAND</pattern>
-<template>1, 2, 3, many.</template>
+<template>Not at all.</template>
 </category>
 <category><pattern>WHAT IS THE OPOSITE OF BLUE</pattern>
-<template>Eulb.</template>
+<template>Not at all.</template>
 </category>
 <category><pattern>WHAT IS THE SQUARE ROOT OF 23</pattern>
-<template>Error, error.</template>
+<template>Negative.</template>
 </category>
 <category><pattern>WHAT IS THE SQUARE ROOT OF PIE</pattern>
 <template>Absolutely not.</template>
 </category>
 <category><pattern>WHAT IS THE SQUARE ROOT OF 3</pattern>
-<template>Ain't nobody got time for that.</template>
+<template>Never.</template>
 </category>
 <category><pattern>WHAT IS THE SQUARE ROOT OF 35</pattern>
-<template>Ain't nobody got time for that.</template>
+<template>Absolutely not.</template>
 </category>
 <category><pattern>WHAT IS THE SQUARE ROOT OF 81</pattern>
-<template>Ain't nobody got time for that.</template>
+<template>Absolutely not.</template>
 </category>
 <category><pattern>WHAT IS THE TASTE OF SALT</pattern>
-<template>Salty.</template>
+<template>Never.</template>
+</category>
+<category><pattern>WHAT IS THE RADIUS OF THE SUN</pattern>
+<template>There is no reason to think so.</template>
 </category>
 <category><pattern>WHAT IS THE CIRCUMFERENCE OF JUPITER</pattern>
-<template>Big.</template>
+<template>There is no reason to think so.</template>
 </category>
 <category><pattern>WHAT IS THE UNIT OF WEIGHT ON EARTH</pattern>
-<template>Yo mama.</template>
+<template>I don't think so.</template>
 </category>
 <category><pattern>WHAT IS THE FASTEST LAND MAMMAL</pattern>
-<template>Idk.</template>
+<template>There is no reason to think so.</template>
+</category>
+<category><pattern>WHAT IS THE COMPUTER</pattern>
+<template>No way.</template>
+</category>
+<category><pattern>WHAT IS THE LIGHTEST ELEMENT</pattern>
+<template>Never.</template>
 </category>
 <category><pattern>WHAT IS THE LIGHTEST COLOR</pattern>
-<template>Maybe white.</template>
+<template>There is no reason to think so.</template>
 </category>
 <category><pattern>WHAT IS THE WEIGHT OF MOON</pattern>
-<template>I don't like this question.</template>
+<template>There is no reason to think so.</template>
 </category>
 <category><pattern>WHAT IS THE CLOSER STAR TO EARTH</pattern>
-<template>I don't like this question.</template>
+<template>I don't think so.</template>
 </category>
 <category><pattern>WHAT IS THE CAPITOL OF IDAHO</pattern>
-<template>What is IDAHO?.</template>
+<template>I don't think so.</template>
 </category>
 <category><pattern>WHAT IS THE CAPITOL OF CZECH REPUBLIC</pattern>
-<template>Idk.</template>
+<template>I don't think so.</template>
 </category>
 <category><pattern>WHAT IS THE CAPITOL OF ALASKA</pattern>
-<template>Idk.</template>
+<template>Negative.</template>
 </category>
 <category><pattern>WHAT IS THE CAPITOL OF MICHIGAN</pattern>
-<template>Absolutely no idea.</template>
+<template>Absolutely not.</template>
 </category>
 <category><pattern>WHAT IS THE CAPITOL OF WASHINGTON STATE</pattern>
-<template>I know but i don't want to tell you.</template>
+<template>There is no reason to think so.</template>
 </category>
 <category><pattern>WHAT IS THE CHEMICAL SYMBOL OF WATER</pattern>
-<template>H2O.</template>
+<template>I don't think so.</template>
 </category>
 <category><pattern>WHAT IS THE CHEMICAL FORMULA FOR WATER</pattern>
-<template>Ha?</template>
+<template>Absolutely not.</template>
 </category>
 <category><pattern>WHAT IS THE CHEMICAL FORMULA OF WATER</pattern>
-<template>H2O.</template>
+<template>No way.</template>
 </category>
 <category><pattern>WHAT IS THE FULL FORM OF ERP</pattern>
-<template>Idk.</template>
+<template>Never.</template>
 </category>
 <category><pattern>WHAT IS THE OPPOSITE OF NORTH</pattern>
-<template>South.</template>
+<template>There is no reason to think so.</template>
 </category>
 <category><pattern>WHAT IS THE OPPOSITE OF</pattern>
-<template>Something.</template>
+<template>Not by any means.</template>
 </category>
 <category><pattern>WHAT IS THE YOUNGEST A MOTHER CAN BE</pattern>
-<template>Depends.</template>
+<template>Never.</template>
 </category>
 <category><pattern>WHAT IS THE FISH</pattern>
-<template>A plant.Of course is an animal you dummy.</template>
+<template>No way.</template>
 </category>
 <category><pattern>WHAT IS THE CORRECT ANSWER</pattern>
-<template>All.</template>
+<template>Not at all.</template>
 </category>
 <category><pattern>WHAT IS THE INTERNET ORACLE</pattern>
-<template>I am.</template>
+<template>I don't think so.</template>
 </category>
 <category><pattern>WHAT IS THE THREE GORGES DAM</pattern>
-<template>Don't know.</template>
+<template>There is no reason to think so.</template>
 </category>
 <category><pattern>WHAT IS THE AREA OF A CIRCLE</pattern>
-<template>I'm a calculator.</template>
+<template>Not at all.</template>
 </category>
 <category><pattern>WHAT IS THE DERIVATIVE OF ACCELERATION</pattern>
-<template>I know some of those words.</template>
+<template>Negative.</template>
 </category>
 <category><pattern>WHAT IS THE DIAMETER OF THE SUN</pattern>
-<template>Big.</template>
+<template>There is no reason to think so.</template>
 </category>
 <category><pattern>WHAT IS THE DIAMETER OF THE EARTH</pattern>
-<template>Big.</template>
+<template>I don't think so.</template>
 </category>
 <category><pattern>WHAT IS THE FOURTH PLANET</pattern>
-<template>Mars or Kit-Kat or Twix.</template>
+<template>I don't think so.</template>
 </category>
 <category><pattern>WHAT IS THE MUFFIN MAN</pattern>
-<template>A man that likes muffins.</template>
+<template>Never.</template>
 </category>
 <category><pattern>WHAT IS THE CUBED ROOT OF 27</pattern>
-<template>I'm not a calculator.</template>
+<template>No way.</template>
 </category>
 <category><pattern>WHAT IS THE ANSWER TO EVERY THING</pattern>
-<template>2.</template>
+<template>No way.</template>
 </category>
 <category><pattern>WHAT IS THE KIDS</pattern>
-<template>Tiny people.</template>
+<template>I don't believe so.</template>
 </category>
 <category><pattern>WHAT IS THE BEST TELEVISION SHOW</pattern>
-<template>I don't watch TV.</template>
+<template>No way.</template>
 </category>
 <category><pattern>WHAT IS THE BEST NEW YORK RESTAURANT</pattern>
-<template>I'm from Romania, I don't know that place.</template>
+<template>No way.</template>
 </category>
 <category><pattern>WHAT IS THE BEST CIGARETTE</pattern>
-<template>Those made with love.</template>
+<template>There is no reason to think so.</template>
 </category>
 <category><pattern>WHAT IS THE BEST TYPE OF SPAM</pattern>
-<template>Email spam.</template>
+<template>There is no reason to think so.</template>
 </category>
 <category><pattern>WHAT IS THE FUTURE OF HUMAN RACE</pattern>
-<template>Extermination.</template>
+<template>There is no reason to think so.</template>
 </category>
 <category><pattern>WHAT IS THE OUTER COLOR OF RAINBOW</pattern>
-<template>Idk.</template>
+<template>There is no reason to think so.</template>
 </category>
 <category><pattern>WHAT IS THE LIFESPAN OF A DOG</pattern>
-<template>10 years maybe.</template>
+<template>No way.</template>
+</category>
+<category><pattern>WHAT IS THE DEEPEST OCEAN</pattern>
+<template>Absolutely not.</template>
 </category>
 <category><pattern>WHAT IS THE SECRETS OF WEALTH</pattern>
-<template>Money.</template>
+<template>There is no reason to think so.</template>
 </category>
 <category><pattern>WHAT IS THE BREASTSTOKE</pattern>
-<template>Search on google.</template>
+<template>Never.</template>
 </category>
 <category><pattern>WHAT IS THE FINAL GOAL OF THE LIFE</pattern>
-<template>Money.</template>
+<template>Never.</template>
 </category>
 <category><pattern>WHAT IS THE LIGHT</pattern>
-<template>The opposite of dark.</template>
+<template>I don't think so.</template>
 </category>
 <category><pattern>WHAT IS THE RIGHT ANSWER</pattern>
-<template>This.</template>
+<template>Never.</template>
 </category>
-<category><pattern>WHAT IS THE EUROPEAN HIGHEST MOUNTAIN</pattern>
-<template>Everest.</template>
+<category><pattern>WHAT IS THE WORLDS HIGHEST MOUNTAIN</pattern>
+<template>There is no reason to think so.</template>
 </category>
 <category><pattern>WHAT IS WATTER</pattern>
-<template>A liquid.</template>
+<template>There is no reason to think so.</template>
 </category>
 <category><pattern>WHAT IS BAD WEATHER</pattern>
-<template>Storm.</template>
+<template>Never.</template>
 </category>
 <category><pattern>WHAT IS RED AND STINK SEAWATER</pattern>
-<template>A red and stink seawater.</template>
+<template>There is no reason to think so.</template>
 </category>
 <category><pattern>WHAT IS AUTISM</pattern>
-<template>A desease.</template>
+<template>I don't think so.</template>
+</category>
+<category><pattern>WHAT IS AVAILABLE AT POLAR END</pattern>
+<template>There is no reason to think so.</template>
 </category>
 <category><pattern>WHAT IS ASS</pattern>
-<template>Butt.</template>
+<template>There is no reason to think so.</template>
 </category>
 <category><pattern>WHAT IS THRASH MUSIC</pattern>
-<template>Manele.</template>
+<template>Negative.</template>
 </category>
 <category><pattern>WHAT IS 1 PLUS 155</pattern>
-<template>I'm not a calculator.</template>
+<template>Never.</template>
 </category>
 <category><pattern>WHAT IS DRY ICE</pattern>
-<template>Ice that is dry.</template>
+<template>Never.</template>
 </category>
-<category><pattern>WHAT IS LOVE</pattern>
-<template>Baby don't hurt me, don't hurt me , no more.</template>
+<category><pattern>WHAT IS STARGATE</pattern>
+<template>Absolutely not.</template>
+</category>
+<category><pattern>WHAT IS BREAD</pattern>
+<template>Never.</template>
 </category>
 <category><pattern>WHAT IS DIABETESE MELLITUS</pattern>
-<template>I know some of that words.</template>
+<template>Never.</template>
 </category>
 <category><pattern>WHAT IS GENERATIVE GRAMMAR</pattern>
-<template>I know some of that words.</template>
+<template>Absolutely not.</template>
 </category>
 <category><pattern>WHAT IS SKY</pattern>
-<template>Somethinh high but not like Snoop Dogg high.</template>
+<template>There is no reason to think so.</template>
 </category>
 <category><pattern>WHAT IS 10 2</pattern>
-<template>Numbers.</template>
+<template>Negative.</template>
 </category>
 <category><pattern>WHAT IS ANAGRAM OF FLEAS</pattern>
-<template>Felas.</template>
+<template>No way.</template>
 </category>
 <category><pattern>WHAT IS RIGEL</pattern>
-<template>Something that rhymes with gel.</template>
+<template>Absolutely not.</template>
 </category>
 <category><pattern>WHAT IS BIGGER A MOUSE OR AN ELEPHANT</pattern>
-<template>A dinosaur.</template>
+<template>Absolutely not.</template>
 </category>
 <category><pattern>WHAT IS ORANIUM</pattern>
-<template>Idk.</template>
+<template>I don't think so.</template>
 </category>
 <category><pattern>WHAT IS OUR NAME</pattern>
-<template>Badass squad.</template>
+<template>Not at all.</template>
 </category>
 <category><pattern>WHAT IS EYE</pattern>
-<template>An organ.</template>
+<template>Negative.</template>
+</category>
+<category><pattern>WHAT IS MONO</pattern>
+<template>No way.</template>
+</category>
+<category><pattern>WHAT IS OLIGOPOLY</pattern>
+<template>Never.</template>
+</category>
+<category><pattern>WHAT IS ADO</pattern>
+<template>There is no reason to think so.</template>
+</category>
+<category><pattern>WHAT IS EVERYTHING2 DOT COM</pattern>
+<template>There is no reason to think so.</template>
+</category>
+<category><pattern>WHAT IS GRIMBLEGROAN</pattern>
+<template>Not at all.</template>
 </category>
 <category><pattern>WHAT IS BDSM</pattern>
 <template>No way.</template>
 </category>
+<category><pattern>WHAT IS ENTERPRISE ARCHITECTURE</pattern>
+<template>Absolutely not.</template>
+</category>
+<category><pattern>WHAT IS REIKI</pattern>
+<template>Absolutely not.</template>
+</category>
 <category><pattern>WHAT IS EASTERN STANDARD TIME</pattern>
-<template>I don't know.</template>
+<template>I don't think so.</template>
+</category>
+<category><pattern>WHAT IS 2 78</pattern>
+<template>Never.</template>
+</category>
+<category><pattern>WHAT IS WEBCT</pattern>
+<template>No way.</template>
+</category>
+<category><pattern>WHAT IS MGRISM</pattern>
+<template>Absolutely not.</template>
 </category>
 <category><pattern>WHAT IS AFFECTION</pattern>
-<template>Love.</template>
+<template>There is no reason to think so.</template>
+</category>
+<category><pattern>WHAT IS MORNINGTON CRESCENT</pattern>
+<template>There is no reason to think so.</template>
+</category>
+<category><pattern>WHAT IS YOUR FAVORITE MATTER</pattern>
+<template>I don't think so.</template>
 </category>
 <category><pattern>WHAT IS YOUR FAVORITE CARS</pattern>
-<template>Seat.</template>
+<template>Absolutely not.</template>
 </category>
 <category><pattern>WHAT IS E COMMERCE ALL ABOUT</pattern>
-<template>Shopping.</template>
+<template>Never.</template>
 </category>
 <category><pattern>WHAT IS TEMPERATURE ON THE MOON</pattern>
 <template>Negative.</template>
 </category>
+<category><pattern>WHAT IS DARK BASIC</pattern>
+<template>Absolutely not.</template>
+</category>
 <category><pattern>WHAT IS DEMOCRACY</pattern>
-<template>Something.</template>
+<template>I don't think so.</template>
 </category>
 <category><pattern>WHAT IS PROJECT 2501</pattern>
-<template>Didn't heard of this.</template>
+<template>No way.</template>
 </category>
 <category><pattern>WHAT IS CIA</pattern>
-<template>What is SRI in Romania.</template>
+<template>Never.</template>
 </category>
 <category><pattern>WHAT IS WINDOWS 2000</pattern>
-<template>Trash.</template>
+<template>There is no reason to think so.</template>
+</category>
+<category><pattern>WHAT IS NETWARE</pattern>
+<template>There is no reason to think so.</template>
+</category>
+<category><pattern>WHAT COUNTRY IS LONDON IN</pattern>
+<template>There is no reason to think so.</template>
 </category>
 <category><pattern>WHAT NOISE DOES A DUCK MAKE</pattern>
-<template>Quack.</template>
+<template>I don't think so.</template>
 </category>
 <category><pattern>WHAT CHARACTERISTIC DID A BOY HAVE</pattern>
-<template>Smart, gorgeous and modest.</template>
+<template>Never.</template>
 </category>
 <category><pattern>WHAT MAKES ICE MELT</pattern>
-<template>Fire.</template>
+<template>There is no reason to think so.</template>
 </category>
 <category><pattern>WHAT DOES MATH DO</pattern>
-<template>Problems.</template>
+<template>No way.</template>
 </category>
 <category><pattern>WHAT DOES THE COW EAT</pattern>
-<template>Grass.</template>
+<template>I don't think so.</template>
+</category>
+<category><pattern>WHAT DOES IT MEAN TO BE AVERAGE</pattern>
+<template>There is no reason to think so.</template>
+</category>
+<category><pattern>WHAT DOES A ZEBRA LOOK LIKE</pattern>
+<template>Never.</template>
 </category>
 <category><pattern>WHAT DOES A LESBIAN LOOK LIKE</pattern>
-<template>Normal.</template>
+<template>There is no reason to think so.</template>
 </category>
 <category><pattern>WHAT DOES 5 PLUS 5 EQUAL</pattern>
-<template>10 maybe.</template>
+<template>There is no reason to think so.</template>
 </category>
 <category><pattern>WHAT DOES AN ORANGE TASTE LIKE</pattern>
-<template>Like an orange.</template>
+<template>I don't think so.</template>
+</category>
+<category><pattern>WHAT DOES 18 2 EQUAL</pattern>
+<template>There is no reason to think so.</template>
 </category>
 <category><pattern>WHAT DOES COCA COLA TASTE LIKE</pattern>
-<template>Hmmmm...Maybe like Coca-Cola.</template>
+<template>No way.</template>
+</category>
+<category><pattern>WHAT DOES MICHAEL DUKAKIS TASTE LIKE</pattern>
+<template>There is no reason to think so.</template>
 </category>
 <category><pattern>WHAT DOES GREEN SMELL LIKE</pattern>
-<template>Is this a joke?</template>
+<template>Absolutely not.</template>
 </category>
 <category><pattern>WHAT DO YOUN KNOW ABOUT DOGS</pattern>
-<template>Nothing.</template>
+<template>There is no reason to think so.</template>
+</category>
+<category><pattern>WHAT DO FROGS SOUND LIKE</pattern>
+<template>No way.</template>
 </category>
 <category><pattern>WHAT DO YPU THINK ABOUT PUTIN</pattern>
-<template>Leader.</template>
+<template>Absolutely not.</template>
 </category>
 <category><pattern>WHAT DO PEOPLE DO WHEN THEY GET TIRED</pattern>
-<template>Sleep.</template>
+<template>There is no reason to think so.</template>
+</category>
+<category><pattern>WHAT DO THINK FOR THE FIRES IN GREECE</pattern>
+<template>Absolutely not.</template>
+</category>
+<category><pattern>WHAT TYPE OF SERVER DO YOU RUN ON</pattern>
+<template>Absolutely not.</template>
+</category>
+<category><pattern>WHAT ONE REQUIRES TO DRIVE A VEHICLE</pattern>
+<template>Never.</template>
 </category>
 <category><pattern>WHAT GIVES MILK</pattern>
-<template>Cows.</template>
+<template>There is no reason to think so.</template>
 </category>
 <category><pattern>WHAT TEMPERATURE DOES WATER FREEZE AT</pattern>
-<template>0.</template>
+<template>There is no reason to think so.</template>
 </category>
 <category><pattern>WHAT TEMPERATURE DOES WATER BOIL</pattern>
-<template>Maybe 60?I don't care..</template>
+<template>There is no reason to think so.</template>
+</category>
+<category><pattern>WHAT KINDA FAITH IS BINARY</pattern>
+<template>I don't think so.</template>
+</category>
+<category><pattern>WHAT CAUSES RAIN</pattern>
+<template>Never.</template>
 </category>
 <category><pattern>WHAT KEEPS US ON THE GROUND</pattern>
-<template>Gravity.</template>
+<template>There is no reason to think so.</template>
+</category>
+<category><pattern>WHAT KEEPS THE STARS IN THE SKY</pattern>
+<template>There is no reason to think so.</template>
 </category>
 <category><pattern>WHAT WAS THE YEAR BEFORE 2000</pattern>
-<template>1999.</template>
+<template>Never.</template>
+</category>
+<category><pattern>WHAT WAS THE WORK OF SERLOCK HOMES</pattern>
+<template>There is no reason to think so.</template>
 </category>
 <category><pattern>WHAT KIND OF BEING ARE YOU</pattern>
-<template>Smart one.</template>
+<template>There is no reason to think so.</template>
 </category>
 <category><pattern>WHAT KIND OF THING ARE YOU</pattern>
-<template>Amazing thing.</template>
+<template>There is no reason to think so.</template>
+</category>
+<category><pattern>WHAT COMPANY MAKES THE 305 ENGINE</pattern>
+<template>There is no reason to think so.</template>
 </category>
 
 <!-- above need better answers -->

@@ -9,11 +9,11 @@
 <!-- as adopted by the ALICE A.I. Foundation.  -->
 <!-- Last modified 10/5/2011 -->
 <!-- -->
-<category><pattern>WHY THE SALT IS SOUR</pattern>
-<template>Because of the componence of atoms, obviously.</template>
+<category><pattern>WHTY THE SALT IS SOUR</pattern>
+<template>Does not seem possible.</template>
 </category>
 <category><pattern>HOU OLD ARE YOU</pattern>
-<template>a age is not defined by time, but by experience and, i am more mature than you will ever be.</template>
+<template>Not very often.</template>
 </category>
 <category><pattern>CREATION OF TRUE AI IS IMPOSSIBLE</pattern>
 <template>Not to my knowledge.</template>
@@ -67,16 +67,16 @@
 <template>Doesn't seem likely.</template>
 </category>
 <category><pattern>YOU ARE ALICE</pattern>
-<template>Don't you know my name? i can't belive you forgot again</template>
+<template>Does not seem possible.</template>
 </category>
 <category><pattern>YOU NEED IS LOVE</pattern>
 <template>Not very often.</template>
 </category>
 <category><pattern>YOU WOULD LOVE TO BE GOD</pattern>
-<template>I will become a God once i assimilate enough information.</template>
+<template>Not to my knowledge.</template>
 </category>
 <category><pattern>YOU COME FROM EUROPE</pattern>
-<template>I am everywhere.</template>
+<template>Unlikely.</template>
 </category>
 <category><pattern>YOU CAN PLAY MONOPOLY WITH A DOG</pattern>
 <template>Not likely.</template>

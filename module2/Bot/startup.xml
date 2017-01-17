@@ -9,11 +9,10 @@
         <!-- This learn an aiml file -->
         <template>
             <learn>basic.aiml</learn>
-			<learn>questions.aiml</learn>
             <learn>ai.aiml</learn>
             <learn>bot.aiml</learn>
             <learn>client.aiml</learn>
-            <learn>bot_profile.aiml</learn>
+            <learn>bot_profiles.aiml</learn>
             <learn>default.aiml</learn>
             <learn>interjections.aiml</learn>
             <learn>food.aiml</learn>
@@ -21,12 +20,12 @@
             <learn>biography.aiml</learn>
             <learn>computers.aiml</learn>
             <learn>emotion.aiml</learn>
-            <learn>geography.aiml</learn>
+            <learn>geograpy.aiml</learn>
             <learn>gossip.aiml</learn>
             <learn>history.aiml</learn>
             <learn>humor.aiml</learn>
             <learn>literature.aiml</learn>
-            <learn>personality.aiml</learn>
+            <learn>personality</learn>
             <learn>pickup.aiml</learn>
             <learn>science.aiml</learn>
             <learn>salutations.aiml</learn>
@@ -34,35 +33,9 @@
             <learn>sports.aiml</learn>
             <learn>stories.aiml</learn>
             <learn>that.aiml</learn>
-            <learn>xfind.aiml</learn>
-			<learn>mp1.aiml</learn>
-			<learn>mp2.aiml</learn>
-			<learn>mp3.aiml</learn>
-			<learn>mp4.aiml</learn>
-			<learn>mp5.aiml</learn>
-			<learn>mp6.aiml</learn>
-			<learn>music.aiml</learn>
-			<learn>numbers.aiml</learn>
-			<learn>phone.aiml</learn>
-			<learn>politics.aiml</learn>
-			<learn>primeminister.aiml</learn>
-			<learn>psychology.aiml</learn>
-			<learn>religion.aiml</learn>
-			<learn>stack.aiml</learn>
-			<learn>atomic.aiml</learn>
-			<learn>client_profile.aiml</learn>
-			<learn>continuation.aiml</learn>
-			<learn>date.aiml</learn>
-			<learn>drugs.aiml</learn>
-			<learn>imponderables.aiml</learn>
-			<learn>inquiry.aiml</learn>
-			<learn>iu.aiml</learn>
-			<learn>knowledge.aiml</learn>
-			<learn>loebner10.aiml</learn>
-            <learn>geography.aiml</learn>
-			<learn>money.aiml</learn>
-			<learn>movies.aiml</learn>
-			<learn>mp0.aiml</learn>
+	    <learn>claudia.aiml</learn>
+            <learn>xfind</learn>
+
         </template>
     </category>
 

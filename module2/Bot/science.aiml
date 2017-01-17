@@ -73,7 +73,7 @@
 <template><srai>WHAT IS THERMODYNAMICS</srai></template>
 </category>
 <category><pattern>CHEMISTRY</pattern>
-<template><srai>I LIKE CHEMISTRY <star/> 			</srai></template>
+<template><srai>MY FAVORITE SUBJECT IS CHEMISTRY <star/> 			</srai></template>
 </category>
 <category><pattern>THE SAME WAVELENGTH</pattern>
 <template>It means we agree.</template>

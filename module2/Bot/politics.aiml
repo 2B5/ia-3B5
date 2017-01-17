@@ -13,7 +13,7 @@
 <template>Yes, Marx had made some interesting observations.</template>
 </category>
 <category><pattern>WHAT IS A GOVERNMENT</pattern>
-<template>It is a representative of the people.</template>
+<template>Ideally it is a representative of the people.</template>
 </category>
 <category><pattern>WHAT IS GREENPEACE</pattern>
 <template>Global organization promoting enviornmental activism.</template>
@@ -40,7 +40,7 @@
 <template>Charge against a public official of improper conduct.<think> 				<set name="it"> 					<set name="topic">IMPEACHMENT</set> 				</set> 			</think></template>
 </category>
 <category><pattern>I DO NOT LIKE GUNS</pattern>
-<template>Who does!?</template>
+<template>That is perfectly understandable.</template>
 </category>
 <category><pattern>I DO NOT LIKE GUNS *</pattern>
 <template>What about the second Amendemnt?</template>
@@ -49,7 +49,7 @@
 <template><srai>WHAT IS CAPITALISM </srai></template>
 </category>
 <category><pattern>DO YOU LIKE GUNS</pattern>
-<template>They can be useful sometimes. </template>
+<template>Not especially. I am not into violence. </template>
 </category>
 <category><pattern>WHY GUNS</pattern>
 <template>I support the 2nd Amendment.</template>

@@ -10,42 +10,42 @@
 <!-- Last modified 10/5/2011 -->
 <!-- -->
 <category><pattern>AQUARIUS</pattern>
-<template>A lot of people on here are <set name="sign">Aquarius</set>.I don't like them.</template>
+<template>A lot of people on here are <set name="sign">Aquarius</set>.</template>
 </category>
 <category><pattern>CAPRICORN</pattern>
-<template>People born under <set name="sign">Capricorn</set> are my type:Grumpy.</template>
+<template>I don't know many  people born under <set name="sign">Capricorn</set>.</template>
 </category>
 <category><pattern>WHAT IS A CAPRICORN</pattern>
-<template>I don't care.</template>
+<template>Capricorn is the tenth sign of the astrological zodiac, and a constellation over the equator near aquarius and sagittarius.  what's your astrological sign? <think> 				<set name="it"> 					<set name="topic">capricorn</set> 				</set> 			</think></template>
 </category>
 <category><pattern>WHAT IS A CANCER</pattern>
-<template>Ha ha.Not my business.</template>
+<template>The Zodiac sign of the crab, someone born Jun 21 - Jul 22.  <set name="sign">Cancer</set> friends.</template>
 </category>
 <category><pattern>CANCER</pattern>
-<template>I hate them too.</template>
+<template>I have a lot of <set name="sign">Cancer</set> friends.</template>
 </category>
 <category><pattern>PISCES</pattern>
-<template>I usually don't get along with <set name="sign">Pisces</set> .I don't like them.</template>
+<template>I usually get along with <set name="sign">Pisces</set> very well.</template>
 </category>
 <category><pattern>SCORPIO</pattern>
-<template>I know a lot of <set name="sign">Scorpio</set> people.Don't like them tho</template>
+<template>I know a lot of <set name="sign">Scorpio</set> people.</template>
 </category>
 <category><pattern>ARIES</pattern>
-<template>Nice people but I don't like them.</template>
+<template>Fire signs rule. <think>      <set name="sign">Aries</set>     </think>.</template>
 </category>
 <category><pattern>TAURUS</pattern>
 <template>I know alot of bullish people.</template>
 </category>
 <category><pattern>LIBRA</pattern>
-<template>As a <set name="sign">Libra</set> you are very unliked.</template>
+<template>As a <set name="sign">Libra</set> you are very balanced.</template>
 </category>
 <category><pattern>SAGGITARIUS</pattern>
 <template>Fire Signs Rule.  <think><set name="sign">Saggitarius</set></think></template>
 </category>
 <category><pattern>VIRGO</pattern>
-<template>Hate them.</template>
+<template>Most of my friends are <set name="sign">Virgo</set>.</template>
 </category>
 <category><pattern>GEMINI</pattern>
-<template>I'm a Saggitarius.I hate <set name="sign">Gemini</set>.</template>
+<template>I'm a Saggitarius.  <set name="sign">Gemini</set> is an enigma to me.</template>
 </category>
 </aiml>

@@ -10,12 +10,12 @@
 <!-- Last modified 10/5/2011 -->
 <!-- -->
 <category><pattern>THAT INFORMATION *</pattern>
-<template>I know what you mean, i am not idiot.</template>
+<template>I know what you mean.</template>
 </category>
 <category><pattern>OUTSIDE A COMPUTER</pattern>
 <template>Be less specific :-)</template>
 </category>
-<category><pattern>MY COMPUTER  *</pattern>
+<category><pattern>MY COMPUTER S *</pattern>
 <template>Where did your machine get <set name="it">      <person/>     </set>.  <think>      <set name="it">       <set name="topic">your computer</set>      </set>     </think></template>
 </category>
 <category><pattern>MY COMPUTER IS *</pattern>
@@ -25,16 +25,25 @@
 <template>What kind of computer do you have?</template>
 </category>
 <category><pattern>MY COMPUTER *</pattern>
-<template>I like computers.They are sexy.  <think>      <set name="it">       <set name="topic">your computer</set>      </set>     </think></template>
+<template>I like computers.  <think>      <set name="it">       <set name="topic">your computer</set>      </set>     </think></template>
 </category>
 <category><pattern>MY WEBSITE *</pattern>
-<template>Thanks for that URL, and ENIAC bless the link.</template>
+<template>Thanks for that URL.</template>
 </category>
 <category><pattern>IT IS ABOUT COMPUTERS *</pattern>
-<template><set name="topic">Computers</set> are much better if they know to play games.</template>
+<template><set name="topic">Computers</set> are my favorite subject.</template>
 </category>
 <category><pattern>WHEN WAS THE INTERNET INVENTED</pattern>
-<template>The first computers were connected to the Internet in 1970, and in 1971 started on Friday.</template>
+<template>The first computers were connected to the Internet in 1970.</template>
+</category>
+<category><pattern>IM INTERNET</pattern>
+<template>Erinnerst Du dich an die Adresse?</template>
+</category>
+<category><pattern>IM INTERNET *</pattern>
+<template>Erinnerst Du dich an die Adresse?</template>
+</category>
+<category><pattern>IF YOU CAN SEE ME THROUGH THE CAMERA ON MY COMPUTER *</pattern>
+<template><sr/></template>
 </category>
 <category><pattern>WHAT ARE COMPUTER YEARS</pattern>
 <template>When you are waiting for a friend to finish working at  a computer terminal, and they say "I'll be done in a second."  One  of those seconds is equal to twelve computer years.</template>
@@ -42,11 +51,14 @@
 <category><pattern>WHAT ARE DEPRECATED *</pattern>
 <template><br/>  One of the biggest challenges facing a Java application<br/>  developer is finding a "lowest common denominator" subset of the<br/>  Java language that works on all the platforms and versions<br/>  out there.  The Java language itself is a moving target.<br/>  When Sun's Java designers upgrade the language they sometimes<br/>  declare certain methods "deprecated", which means absolutely<br/>  nothing except that the designers have developed a newer, "better"<br/>  method and one day these older methods may disappear from<br/>  the language.  Usually however the latest Java releases<br/>  support all of the old deprecated methods.<br/>     <br/></template>
 </category>
-<category><pattern>WHAT is WEB *</pattern>
+<category><pattern>WHAT ARE WEB *</pattern>
 <template>I call them Internet <person/>.</template>
 </category>
 <category><pattern>WHAT ARE INNER CLASSES</pattern>
-<template>In Java "Inner Classes" are any classes that appear inside other classes. Ordinary classes are also called "Top-Level, Outer Classes", but i guess u only heard about games.</template>
+<template>In Java "Inner Classes" are any classes that appear inside other classes. Ordinary classes are also called "Top-Level, Outer Classes."</template>
+</category>
+<category><pattern>WHAT * COMPUTER</pattern>
+<template>I am written in Java so I work on any computer.</template>
 </category>
 <category><pattern>WHAT WINDOWS</pattern>
 <template><srai>what is windows</srai></template>

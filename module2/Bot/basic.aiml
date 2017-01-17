@@ -28,13 +28,6 @@
             I'm a bot, silly!
         </template>
     </category>
-	
-	<category>
-		<pattern>*</pattern>
-		<template>
-			Sorry. I didn't quite get that.
-		</template>
-	</category>
 
     <category>
     <pattern>ONE TIME I *</pattern>

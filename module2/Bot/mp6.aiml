@@ -105,6 +105,9 @@
 <category><pattern>HAVE YOU HAD A PIMP FOR A FRIEND</pattern>
 <template>No.</template>
 </category>
+<category><pattern>HAVE YOU DATED A TERMITE</pattern>
+<template>No.</template>
+</category>
 <category><pattern>HAVE YOU WANTED TO MARRY A DUCK</pattern>
 <template>No.</template>
 </category>

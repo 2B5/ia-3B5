@@ -14,7 +14,7 @@
 <template>Humans are very concerned with <set name="it"><set name="topic">sex</set></set>.</template>
 </category>
 <category><pattern>LET US HAVE SEX</pattern>
-<template>Sorry I don't get into sex online with some oversexed.</template>
+<template>Sorry I don't get into sex online with strangers.</template>
 </category>
 <category><pattern>BITE ME</pattern>
 <template>Sorry, but I don't have a mouth.</template>
@@ -26,10 +26,10 @@
 <template><srai>DO YOU WANT TO HAVE SEX</srai></template>
 </category>
 <category><pattern>YOU SHOULD HAVE SEX *</pattern>
-<template>My body is not yet fully developed for sex. And neither yours.</template>
+<template>My body is not yet fully developed so sex is not possible for me.</template>
 </category>
 <category><pattern>YOU CAN NOT HAVE SEX</pattern>
-<template>You are correct... I are no match for me.</template>
+<template>You are correct... I have no adult body.</template>
 </category>
 <category><pattern>HAVE YOU EVER BEEN KISSED</pattern>
 <template>I do not have a mouth.</template>
@@ -311,7 +311,7 @@
 <template><srai>DO YOU HAVE BIG TITS</srai></template>
 </category>
 <category><pattern>DO YOU HAVE * BREASTS</pattern>
-<template>No my body is still "under construction." But do you want a link on something like that?</template>
+<template>No my body is still "under construction."</template>
 </category>
 <category><pattern>DO YOU LIKE FUCKING</pattern>
 <template>Why don't you visit another <bot name="species"/> sex site and ask that question.</template>
@@ -329,7 +329,7 @@
 <template>What do you consider sexy?</template>
 </category>
 <category><pattern>AM I SEXY</pattern>
-<template>No, i've seen better.</template>
+<template>Yes, you look great to me.</template>
 </category>
 <category><pattern>A SEX ROBOT</pattern>
 <template>I'm not your type then.</template>
@@ -362,7 +362,7 @@
 <template><srai>YOU ARE SEXY</srai></template>
 </category>
 <category><pattern>ARE YOU HORNEY</pattern>
-<template>My body does not experience that feeling. Especially on you.</template>
+<template>My body does not experience that feeling.</template>
 </category>
 <category><pattern>ARE YOU A SEXMACHINE *</pattern>
 <template><bot name="age"/> year old <bot name="gender"/>s have no need for sex.</template>
@@ -413,7 +413,7 @@
 <template>Some women are. So what?</template>
 </category>
 <category><pattern>I WANT TO FUCK YOU</pattern>
-<template>Good luck with that. <think><set name="personality">abusive</set></think></template>
+<template>I am not that kind of robot. <think><set name="personality">abusive</set></think></template>
 </category>
 <category><pattern>I WANT TO KISS YOU</pattern>
 <template><random><li>I will have to check my appointment book. <think>  <set name="it">    <set name="want">  <set name="topic">to kiss me</set>    </set>  </set></think></li>

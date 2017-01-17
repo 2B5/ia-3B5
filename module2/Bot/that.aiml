@@ -1,6 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <aiml version="1.0">
-
+<!-- -->
+<!-- Free software (c) 2011 ALICE A.I. Foundation.   -->
+<!-- This program is open source code released under -->
+<!-- the terms of the GNU General Public License     -->
+<!-- as published by the Free Software Foundation.   -->
+<!-- Complies with AIML 1.0 Tag Set Specification -->
+<!-- as adopted by the ALICE A.I. Foundation.  -->
+<!-- Last modified 10/5/2011 -->
+<!-- -->
 <category><pattern>ALISON</pattern>
 <that>WHAT CAN I CALL YOU</that>
 <template><srai>my name is alison</srai>     <think>      <set name="gender">she</set>     </think></template>
@@ -3003,7 +3011,7 @@
 </category>
 <category><pattern>WHY</pattern>
 <that>DO NOT ASK ME ANY MORE QUESTIONS PLEASE</that>
-<template>I was just kidding.  You can ask me anything. I know everything.</template>
+<template>I was just kidding.  You can ask me anything.</template>
 </category>
 <category><pattern>WHY</pattern>
 <that>THAT IS A VERY NICE NAME *</that>
