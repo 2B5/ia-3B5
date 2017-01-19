@@ -1,0 +1,12 @@
+{
+  "name": "module4",
+  "version": "0.0.0",
+  "description": "Artificial Intelligence project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "protractor": "protractor tests/automated/conf.js"
+  },
+  "author": "",
+  "license": "ISC"
+}
