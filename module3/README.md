@@ -23,11 +23,11 @@ https://ia-module3.herokuapp.com/process/this%20is%20a%20text%20to%20test%20this
 + Sopron Octavian
 
 ## Submodules:
-+ 1. Preprocessing:
+1. Preprocessing - **Coman Bianca**
   + language detection
   + error correction
   
-+ 2. Processing
+2. Processing - **Balan Valeria**
   + phrase/sentences parsing 
   + tokenization
   + lemmatization
@@ -36,17 +36,17 @@ https://ia-module3.herokuapp.com/process/this%20is%20a%20text%20to%20test%20this
   + instances detection
   + sentiment detection
   
-+ 3. Sense disambiguation
+3. Sense disambiguation - **Cobuz Cezara**
   + sense recognition
   + synonims lists
   + other associated words
   
-+ 4. API
+4. API - **Bilan Tudor**
   + previous submodules integration
   + output generation (json)
   + API definition for module1
 
-+ 5. Unit testing  
+5. Unit testing - **Sopron Octavian**
 
 ## Resources and tehnologies:
 
