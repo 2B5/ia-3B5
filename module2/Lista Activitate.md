@@ -79,6 +79,7 @@ Modelarea bazei de cunostinte si crearea personalitatii Bot-ului. Lucru cu AIML 
 +	mp3.aiml
 +	mp4.aiml
 +	mp5.aiml
++ questions.aiml
 
 **Nechita Rares** 
 Lucru la API, procesarea requesturilor si procesarea raspunsurilor API-ului, logica API-ului si functionalitatea sesiunii pe baza de date.
