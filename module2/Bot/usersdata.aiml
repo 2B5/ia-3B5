@@ -1,0 +1,32 @@
+<aiml version="1.0.1" encoding="UTF-8">
+   <category>
+      <pattern>MY NAME IS *</pattern>
+      <template>
+         That is interesting name <set name="username"><star/></set>
+      </template>
+   </category>
+   <category>
+      <pattern>I'M * YEARS OLD</pattern>
+      <template>
+         OHH so you are in this world for <set name="age"><star/></set> years.
+      </template>
+   </category>
+   <category>
+      <pattern>MY AGE IS *</pattern>
+      <template>
+         OHH so you are in this world for <set name="age"><star/></set> years.
+      </template>
+   </category>
+   <category>
+      <pattern>WHAT IS MY NAME</pattern>
+      <template>
+         Your name is <get name="username"/>.
+      </template>
+   </category>
+   <category>
+      <pattern>HOW OLD AM I</pattern>
+      <template>
+         Your age is <get name="age"/>.
+      </template>
+   </category>
+</aiml>
