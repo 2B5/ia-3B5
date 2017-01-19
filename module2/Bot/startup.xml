@@ -34,7 +34,6 @@
             <learn>sports.aiml</learn>
             <learn>stories.aiml</learn>
             <learn>that.aiml</learn>
-            <learn>xfind.aiml</learn>
 			<learn>mp1.aiml</learn>
 			<learn>mp2.aiml</learn>
 			<learn>mp3.aiml</learn>
@@ -63,6 +62,7 @@
 			<learn>money.aiml</learn>
 			<learn>movies.aiml</learn>
 			<learn>mp0.aiml</learn>
+            <learn>claudia.aiml</learn>
         </template>
     </category>
 

@@ -13,13 +13,15 @@ class Requester{
             }
             var resp = {};
             try {
+                console.log(body);
                 resp = JSON.parse(body);
-                console.log(resp);
+
                 if(hasResponseInBody)
                     cb(resp.response);
                 else
                     cb(resp);
             } catch (error) {
+                console.log(error)
                 cb("Sorry, cannot answer that.");
             }
         })
