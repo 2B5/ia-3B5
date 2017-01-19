@@ -7,12 +7,15 @@ from random import randint
 class Response(object):
     def __init__(self):
         self.kernel = aiml.Kernel()
+        self.kernel.setPredicate("hostname", "localhost")
+        self.kernel.setBotPredicate("favoritemovie",'"Ex Machina"')
         self.kernel.learn("startup.xml")
         self.kernel.respond("load aiml")
         conn = sqlite3.connect('users.db')
         c = conn.cursor()
 
     def _cp_dispatch(self, vpath):
+    
         if len(vpath) == 1:
             cherrypy.request.params['uid'] = vpath.pop()
             cherrypy.request.params['request'] = ""
@@ -30,6 +33,18 @@ class Response(object):
             return self
         return vpath
 
+    def get_random_question(self):
+        strings = ["Are you still there?",
+        "You seem quiet today. Don't you want to chat?",
+        "Come on, don't be shy. I'm listening",
+        "I'm all ears",
+        "Let's hear more about you",
+        "Do you wanna build a snowman?",
+        "You talkin’ to me?",
+        "Why so serious?",
+        "Mirror mirror on the wall, who is the fairest one of all?"]
+        import random
+        return random.choice(strings)
 
     def get_movie(self):
 
@@ -81,6 +96,7 @@ class Response(object):
         return self.check_query(res)
 
     def update_user_name(self,user_id, user_name):
+        print ("I'm in\n")
         conn = sqlite3.connect('users.db')
         c = conn.cursor()
         self.check_user(user_id)
@@ -88,7 +104,8 @@ class Response(object):
         conn.commit()
         res = c.rowcount;
         conn.close()
-        return self.check_query(res)
+        self.kernel.setBotPredicate("name", user_name)
+       # return self.check_query(res)
 
     def update_user_age(self,user_id, user_age):
         conn = sqlite3.connect('users.db')
@@ -262,7 +279,8 @@ class Response(object):
 
         if request == "movie":
             return self.get_movie()
-
+        if request == "random_question":
+            return self.get_random_question()
         return {'response': self.kernel.respond(request)}
 
 
