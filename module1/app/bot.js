@@ -10,9 +10,10 @@ const bodyParser = require('body-parser');
 const Bot = require('./index.js');
 const path = require('path');
 const BotCore = require('./bot-core.js');
+var Timers_dictionary = {};
 
 // Init tokens if not configured
-process.env.PAGE_TOKEN = process.env.PAGE_TOKEN || "EAAaFZA3zelxoBAJA2zKh672pNjuiy2XIa2zeunpHiPWwaYz4sJuFa981JEorRiRIdktaHIBzh91W1ZBwHOjSSizZCDkl6AhMmu2WqPhDSpinyIzhDdocAO5Jgj6oiiLqnxqGGafFvfJpjB4XqKCF3WXZCvPG8O5LrRNn3ECAzQZDZD";
+process.env.PAGE_TOKEN = process.env.PAGE_TOKEN || "EAAaFZA3zelxoBAEo46L0OjDmxzFMsbSKNE5r6YG1gqBkd28OiwDvN2WnGyJ7ZB0gFmklAGLkxiUaw8wvU6MobJl41VzGnwKg5ZC8QNEWgGl7TA1LApY8DJHGMU7ggoV9iiCxLXk67ZCowZAWbicSc6IDMK4wNpFGASYcYPdwHPgZDZD";
 process.env.VERIFY_TOKEN = process.env.VERIFY_TOKEN || "thisisthecatassistantwiththetacitrainbow";
 process.env.APP_SECRET = process.env.APP_SECRET || "e70ed14b68ed0fdf2f6d6d999c213898";
 process.env.PAGE_ID = process.env.PAGE_ID || "351647861867213";
@@ -39,15 +40,74 @@ bot.on('error', (err) => {
 // handling any errors that occur.
 bot.on('message', (payload, reply) => {
   let userInput = payload.message.text;
-  messageProcessor.handle_message(userInput, function(text){
+  if(payload.sender.id == '351647861867213'){
+    console.log('RETURN')
+    return ;
+    
+  }
+
+ 
+    if(Timers_dictionary.hasOwnProperty(payload.sender.id)){
+      var client_timer = Timers_dictionary[payload.sender.id];
+      clearTimeout(client_timer);
+    }
+      var new_client_timer = setTimeout(function(){
+        bot.getProfile(payload.sender.id, (err, profile) => {
+            if (err) { console.log(err); }
+            else {
+              messageProcessor.get_random_question(function(text){
+                reply({ text }, (err) => {
+                if (err) console.log(err);
+                
+                if(profile)
+                  console.log(`Echoed forward to ${profile.first_name} ${profile.last_name}: ${text}`);
+
+                else
+                  console.log('Cannot get sender profile',profile)
+              })
+            });
+          
+              
+            }
+          });
+      },30000, bot,payload);
+      Timers_dictionary[payload.sender.id] = new_client_timer;
+    // }else
+    // {
+
+    //   var new_client_timer = setTimeout( function(){
+    //     bot.getProfile(payload.sender.id, (err, profile) => {
+    //         if (err) { console.log(err); }
+    //         else {
+    //           messageProcessor.get_random_question(function(text){
+    //             reply({ text }, (err) => {
+    //             if (err) console.log(err);
+                
+    //             if(profile)
+    //               console.log(`Echoed forward to ${profile.first_name} ${profile.last_name}: ${text}`);
+    //             else
+    //               console.log('Cannot get sender profile',profile)
+    //           })
+    //         });
+          
+    //         }
+    //       });
+    //   },30000, bot, payload );
+    //   Timers_dictionary[payload.sender.id] = new_client_timer;
+
+  
+  messageProcessor.handle_message(userInput,payload.sender.id, function(text){
       bot.getProfile(payload.sender.id, (err, profile) => {
           if (err) { console.log(err); }
           else {
             reply({ text }, (err) => {
               if (err) console.log(err);
               
-              if(profile)
+              if(profile){
+                messageProcessor.update_username(payload, profile);
                 console.log(`Echoed back to ${profile.first_name} ${profile.last_name}: ${text}`);
+
+                }
               else
                 console.log('Cannot get sender profile',profile)
             });
