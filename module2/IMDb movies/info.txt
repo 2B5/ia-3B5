@@ -1,0 +1,11 @@
+This module searches movies and actors in IMDb database.
+
+Example call:
+Python movie testare_filme.py the Revenant
+testare_filme.py python actor Sebastian Stan
+
+Movie returns: title, plot, genres, cast, director
+Actor returns: name, bio (who is the actor), birth date, movies
+ 
+Finnaly, we didn't use this module because the program returns output in 5-10 seconds.
+I used only a small part of this module, to create a database with the top 10 movies on imdb.

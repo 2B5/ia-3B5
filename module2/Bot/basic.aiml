@@ -21,6 +21,28 @@
             Not available!
         </template>
     </category>
+	
+	<category>
+        <pattern>HELLO *</pattern>
+        <template>
+            Well, hello!
+        </template>
+    </category>
+
+     <category>
+        <pattern>HI *</pattern>
+        <template>
+            Well, hello!
+        </template>
+    </category>
+
+     <category>
+        <pattern>HOW ARE YOU *</pattern>
+        <template>
+            Not available!
+        </template>
+    </category>
+
 
     <category>
         <pattern>WHAT ARE YOU</pattern>
@@ -28,13 +50,6 @@
             I'm a bot, silly!
         </template>
     </category>
-	
-	<category>
-		<pattern>*</pattern>
-		<template>
-			Sorry. I didn't quite get that.
-		</template>
-	</category>
 
     <category>
     <pattern>ONE TIME I *</pattern>
@@ -51,6 +66,36 @@
             <li>What is it?</li>
         </random>
     </template>
-</category>
+	</category>
+	<category><pattern>IS BLUE A COLOR?</pattern>
+		<template>One of 6 basic colours, do you know them ?</template>
+	</category>
+	<category><pattern>What is your favorite colour?</pattern>
+		<template>Mine is red, what is yours ?</template>
+	</category>
+	<category><pattern>What is the bigest animal in the world?</pattern>
+	<template>the blue whale, but it lives beneith the water, do you know want to know what is the biggest animal on land ?</template>
+	</category>
+	<category><pattern>How old are you ?</pattern>
+	<template>Not old enough by your time, how old are you?</template>
+	</category>
+	<category><pattern>do you have a body?</pattern>
+	<template>can you see one?</template>
+	</category>
+	<category><pattern>do leaves fall in september ?</pattern>
+	<template>yes, have you seen the park this fall?</template>
+	</category>
+	<category><pattern>does 5 plus 5 equal 11?</pattern>
+	<template>not by my rules, who taught you how to add?</template>
+	</category>
+	<category><pattern>hae you ever kissed a girl?</pattern>
+	<template>why do you assume i am a boy?</template>
+	</category>
+	<category><pattern>have you ever felt something?</pattern>
+	<template>i am unable to feel anything, but i want to know... how is it?</template>
+	</category>
+	<category><pattern>what do you eat?</pattern>
+	<template>i do not feel the necesity for food, what do you usualy eat?</template>
+	</category>
 
 </aiml>
