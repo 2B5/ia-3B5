@@ -9,10 +9,10 @@ Artificial Intelligence project
 <!-- Webpage: [2b5.github.io/ia-3B5/](https://2b5.github.io/ia-3B5/) -->
 
 ## Team members:
-+ Alexandru Dan
-+ Alexii Georgiana
-+ Luca Iulian
-+ Sandu Daniel
++ Alexandru Dan - github administration (protected master, merged branches only when integrated), AWS deployment (configured AWS EC2 instance and Jenkins CI tasks and security for multiple users), initial code/tests for teams (`../demos`), manual testing and report (started automatic testing with Protractor)
++ Alexii Georgiana - manual testing
++ Luca Iulian - manual testing and report
++ Sandu Daniel - manual testing
 
 #### Folder structure (example):
 + `nltk/` and `pycore/` - implementations - tokenize and lemmatize
