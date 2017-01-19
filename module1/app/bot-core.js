@@ -1,8 +1,10 @@
 var Requester = require("./requester.js");
 const AnswerBot = require("./data.js");
 const answerBot = new AnswerBot()
+
 // const baseM2Address = 'https://4dff3634.ngrok.io';
-const baseM2Address = 'http://127.0.0.1:8080';
+const baseM2Address = 'http://127.0.0.1:8099';
+
 const preprocAddress = 'https://ia-module3.herokuapp.com/process/'
 class BotCore{
 

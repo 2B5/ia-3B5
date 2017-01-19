@@ -62,6 +62,9 @@
 			<learn>money.aiml</learn>
 			<learn>movies.aiml</learn>
 			<learn>mp0.aiml</learn>
+
+			<learn>xfind.aiml</learn>
+
             <learn>claudia.aiml</learn>
         </template>
     </category>

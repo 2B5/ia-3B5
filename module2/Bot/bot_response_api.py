@@ -2,6 +2,7 @@ import cherrypy
 import aiml
 import sqlite3
 from random import randint
+import sys
 
 
 class Response(object):
@@ -11,26 +12,20 @@ class Response(object):
         self.kernel.setBotPredicate("favoritemovie",'"Ex Machina"')
         self.kernel.learn("startup.xml")
         self.kernel.respond("load aiml")
-        conn = sqlite3.connect('users.db')
-        c = conn.cursor()
 
     def _cp_dispatch(self, vpath):
     
         if len(vpath) == 1:
-            cherrypy.request.params['uid'] = vpath.pop()
-            cherrypy.request.params['request'] = ""
-            cherrypy.request.params['value'] = ""
+            cherrypy.request.params['question'] = vpath.pop()
             return self
-        if len(vpath) == 2:
-            cherrypy.request.params['uid'] = vpath.pop(0)
-            cherrypy.request.params['request'] = vpath.pop(0)
-            cherrypy.request.params['value'] = ""
-            return self
+
         if len(vpath) == 3:
-            cherrypy.request.params['uid'] = vpath.pop(0)
-            cherrypy.request.params['request'] = vpath.pop(0)
-            cherrypy.request.params['value'] = vpath.pop(0)
-            return self
+            cherrypy.request.params['question'] = vpath.pop(0)  # //
+            vpath.pop(0)  # /albums/
+            cherrypy.request.params['movie'] = vpath.pop(0)  # /album title/
+            return self.albums
+
+
         return vpath
 
     def get_random_question(self):
@@ -47,8 +42,8 @@ class Response(object):
         return random.choice(strings)
 
     def get_movie(self):
+        conn = sqlite3.connect('movies.db')
 
-        conn = sqlite3.connect('users.db')
         c = conn.cursor()
 
         c.execute('SELECT * FROM top_movies')
@@ -72,6 +67,14 @@ class Response(object):
 
         return d
 
+<<<<<<< HEAD
+    @cherrypy.expose
+    @cherrypy.tools.json_out()
+    def index(self, question):
+        if question == 'movie':
+            return self.get_movie()
+        return {'response': self.kernel.respond(question)}
+=======
     def check_query(self,res):
         d = dict()
         if res == 1:
@@ -126,109 +129,39 @@ class Response(object):
         res = c.rowcount;
         conn.close()
         return self.check_query(res)
+>>>>>>> master
 
-    def update_user_fav_color(self,user_id, fav_color):
-        conn = sqlite3.connect('users.db')
-        c = conn.cursor()
-        self.check_user(user_id)
-        c.execute("UPDATE users SET fav_color = ? WHERE id = ?", (fav_color.title(), user_id))
-        conn.commit()
-        res = c.rowcount;
-        conn.close()
-        return self.check_query(res)
+class Movie(object):
+    @cherrypy.expose
+    @cherrypy.tools.json_out()
+    def index(self,movie):
 
-    def add_user_fav_movie(self,user_id, fav_movie):
-        conn = sqlite3.connect('users.db')
-        c = conn.cursor()
-        self.check_user(user_id)
-        c.execute('SELECT fav_movie1, fav_movie2, fav_movie3 FROM users WHERE id = :who', {"who": user_id})
-        fav_movies = c.fetchone()
-        if fav_movies[0] is None:
-            c.execute("UPDATE users SET fav_movie1 = ? WHERE id = ?", (fav_movie.title(), user_id))
-        elif fav_movies[1] is None:
-            c.execute("UPDATE users SET fav_movie2 = ? WHERE id = ?", (fav_movie.title(), user_id))
-        elif fav_movies[2] is None:
-            c.execute("UPDATE users SET fav_movie3 = ? WHERE id = ?", (fav_movie.title(), user_id))
-        else:
-            c.execute("UPDATE users SET fav_movie1 = ? WHERE id = ?", (fav_movie.title(), user_id))
-        conn.commit()
-        res = c.rowcount;
-        conn.close()
-        return self.check_query(res)
+        conn = sqlite3.connect('movies.db')
 
-    def add_user_hobby(self,user_id, hobby):
-        conn = sqlite3.connect('users.db')
         c = conn.cursor()
-        self.check_user(user_id)
-        c.execute('SELECT hobby1, hobby2, hobby3 FROM users WHERE id = :who', {"who": user_id})
-        hobbies = c.fetchone()
-        if hobbies[0] is None:
-            c.execute("UPDATE users SET hobby1 = ? WHERE id = ?", (hobby, user_id))
-        elif hobbies[1] is None:
-            c.execute("UPDATE users SET hobby2 = ? WHERE id = ?", (hobby, user_id))
-        elif hobbies[2] is None:
-            c.execute("UPDATE users SET hobby3 = ? WHERE id = ?", (hobby, user_id))
-        else:
-            c.execute("UPDATE users SET hobby1 = ? WHERE id = ?", (hobby, user_id))
-        conn.commit()
-        res = c.rowcount;
-        conn.close()
-        return self.check_query(res)
 
-    def get_user_name(self,user_id):
-        conn = sqlite3.connect('users.db')
-        c = conn.cursor()
-        self.check_user(user_id)
-        c.execute('SELECT name FROM users WHERE id = :who', {"who": user_id})
-        res = c.fetchone()[0]
-        conn.close()
-        return self.process_result(res)
+        c.execute('SELECT * FROM top_movies')
 
-    def get_user_age(self,user_id):
-        conn = sqlite3.connect('users.db')
-        c = conn.cursor()
-        self.check_user(user_id)
-        c.execute('SELECT age FROM users WHERE id = :who', {"who": user_id})
-        res = c.fetchone()[0]
-        conn.close()
-        return self.process_result(res)
+        nr = randint(0, 4)
+        i = 0
+        for movie in c.fetchall():
+            if i == nr:
+                break
+            i += 1
 
-    def get_user_gender(self,user_id):
-        conn = sqlite3.connect('users.db')
-        c = conn.cursor()
-        self.check_user(user_id)
-        c.execute('SELECT gender FROM users WHERE id = :who', {"who": user_id})
-        res = c.fetchone()[0]
-        conn.close()
-        return self.process_result(res)
+        d = dict()
 
-    def get_user_fav_color(self,user_id):
-        conn = sqlite3.connect('users.db')
-        c = conn.cursor()
-        self.check_user(user_id)
-        c.execute('SELECT fav_color FROM users WHERE id = :who', {"who": user_id})
-        res = c.fetchone()[0]
-        conn.close()
-        return self.process_result(res)
+        d['title'] = movie[0]
+        d['plot'] = movie[1]
+        d['genres'] = movie[2]
+        d['cast'] = movie[3]
+        d['director'] = movie[4]
 
-    def get_user_fav_movies(self,user_id):
-        conn = sqlite3.connect('users.db')
-        c = conn.cursor()
-        self.check_user(user_id)
-        c.execute('SELECT fav_movie1, fav_movie2, fav_movie3 FROM users WHERE id = :who', {"who": user_id})
-        d = [dict(zip(['fav_movie1', 'fav_movie2','fav_movie3'], row)) for row in c.fetchall()]
         conn.close()
+
         return d
 
-    def get_user_hobbies(self,user_id):
-        conn = sqlite3.connect('users.db')
-        c = conn.cursor()
-        self.check_user(user_id)
-        c.execute('SELECT hobby1, hobby2, hobby3 FROM users WHERE id = :who', {"who": user_id})
-        d = [dict(zip(['fav_hobby1', 'fav_hobby2', 'fav_hobby3'], row)) for row in c.fetchall()]
-        conn.close()
-        return d
-
+    '''
     def check_user(self,user_id):
         conn = sqlite3.connect('users.db')
         c = conn.cursor()
@@ -282,7 +215,9 @@ class Response(object):
         if request == "random_question":
             return self.get_random_question()
         return {'response': self.kernel.respond(request)}
-
+    '''
 
 if __name__ == '__main__':
+    sys.setrecursionlimit(1000000)
+    cherrypy.config.update({'server.socket_port': 8099})
     cherrypy.quickstart(Response())

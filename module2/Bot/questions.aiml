@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <aiml version="1.0">
-	<category><pattern>GET_QUESTION</pattern>
+	<category><pattern>_BOTQUESTIONFORUSER</pattern>
 		<template>
 			<random>
 				<li>What is going on?</li>
